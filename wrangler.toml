@@ -1,0 +1,20 @@
+name = "ai-accountability-coach"
+main = "src/index.ts"
+compatibility_date = "2026-04-16"
+
+[observability]
+enabled = true
+
+[triggers]
+crons = ["30 3 * * *", "30 15 * * *", "30 13 * * 0"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-accountability-coach"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.md"]
+fallthrough = true
