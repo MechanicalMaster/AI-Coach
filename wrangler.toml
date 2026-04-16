@@ -6,7 +6,7 @@ compatibility_date = "2026-04-16"
 enabled = true
 
 [triggers]
-crons = ["30 3 * * *", "30 15 * * *", "30 13 * * 0"]
+crons = ["30 3 * * *", "30 15 * * *", "30 13 * * SUN"]
 
 [[d1_databases]]
 binding = "DB"
