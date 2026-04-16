@@ -11,7 +11,7 @@ crons = ["30 3 * * *", "30 15 * * *", "30 13 * * 0"]
 [[d1_databases]]
 binding = "DB"
 database_name = "ai-accountability-coach"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "66515eb5-4f9b-400f-aeae-2133d83bcfcf"
 migrations_dir = "migrations"
 
 [[rules]]
